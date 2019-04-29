@@ -1,0 +1,17 @@
+.Pokecard{
+    border: 2px solid aqua;
+    border-radius: 20px;
+    background-color: cornsilk;
+    width: 200px;
+    margin: 0px 50px;
+}
+
+.Pokecard-img{
+    height: 100px;
+    transition: all ease 500ms;
+}
+
+.Pokecard-img:hover{
+    transform: scale(1.3);
+    opacity: 0.75;
+}
